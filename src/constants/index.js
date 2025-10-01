@@ -70,7 +70,10 @@ export const PROJECTS = [
     title: "Reddit Replica",
     description: `For my Fundamentals of Software Development class, I built Phreddit, a Reddit clone using Node.js/Express, React, and MongoDB/Mongoose. I designed the data models such as users, communities, posts, and threaded comments, implemented secure authentication with bcrypt, and wrote REST APIs with validation, error handling, and role-based access. This project taught me how to work with complex databases and how to connect the front- and back-end development of a webpage. 
 
-Once I had completed the project, I took things one step further and learned how to deploy a working copy of my project that I can maintain. I used Vercel to deploy my frontend, client interface of my website, then used Render and MongoDB Atlas for deploying my database and API. Overall, this project was a great simulation of some real-world experience in web-development`,
+    Once I had completed the project, I took things one step further and learned how to deploy a working copy of my project that I can maintain. I used Vercel to deploy my frontend, client interface of my website, then used Render and MongoDB Atlas for deploying my database and API. Overall, this project was a great simulation of some real-world experience in web-development
+
+    When accessing the webpage please give it a minute to load the database, you may want to refresh a few times. 
+    `,
     mediaType: "image",
     mediaSrc: project5,
     technologies: ["Node.js/Express", "MongoDB/Mongoose", "React", "Auth & Security", "Database", "Deployment & Ops"],
