@@ -1,20 +1,18 @@
 import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
-import { FaGithub, FaBootstrap, FaNodeJs, FaJava } from "react-icons/fa";
-import { SiPython } from "react-icons/si";
 import { motion } from "framer-motion";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { TbBrandCpp } from "react-icons/tb";
-import { FaHtml5 } from "react-icons/fa";
-import { SiC } from "react-icons/si";
 import HoverTech from "./HoverTech";
+
+import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
+import { FaGithub, FaNodeJs, FaJava, FaHtml5, FaCss3 } from "react-icons/fa";
+import { SiPython, SiJavascript, SiC } from "react-icons/si";
+import { TbBrandCpp, TbSql, TbCpu } from "react-icons/tb";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
   animate: {
     y: [10, -10],
     transition: {
-      duration: duration,
+      duration,
       ease: "linear",
       repeat: Infinity,
       repeatType: "reverse",
@@ -40,16 +38,17 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap justify-center gap-4"
       >
-        {/* NodeJS */}
+        {/* ===== Languages ===== */}
+        {/* JavaScript */}
         <motion.div
-          variants={iconVariants(2.2)}
+          variants={iconVariants(2.4)}
           initial="initial"
           animate="animate"
           className="rounded-full flex items-center border-4 border-neutral-900 p-6"
         >
-          <a href="#ascii">
-            <HoverTech name={"NodeJS"}>
-              <FaNodeJs className="text-green-500 text-7xl" />
+          <a href="#portfolio">
+            <HoverTech name={"JavaScript"}>
+              <SiJavascript className="text-yellow-400 text-7xl" />
             </HoverTech>
           </a>
         </motion.div>
@@ -108,6 +107,21 @@ const Technologies = () => {
           </a>
         </motion.div>
 
+        {/* Assembly */}
+        <motion.div
+          variants={iconVariants(2.8)}
+          initial="initial"
+          animate="animate"
+          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
+        >
+          <a href="#systems">
+            <HoverTech name={"Assembly"}>
+              <TbCpu className="text-neutral-300 text-7xl" />
+            </HoverTech>
+          </a>
+        </motion.div>
+
+        {/* ===== Web ===== */}
         {/* HTML */}
         <motion.div
           variants={iconVariants(2.5)}
@@ -122,7 +136,21 @@ const Technologies = () => {
           </a>
         </motion.div>
 
-        {/* ReactJs */}
+        {/* CSS */}
+        <motion.div
+          variants={iconVariants(2.6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
+        >
+          <a href="#portfolio">
+            <HoverTech name={"CSS"}>
+              <FaCss3 className="text-blue-500 text-7xl" />
+            </HoverTech>
+          </a>
+        </motion.div>
+
+        {/* React */}
         <motion.div
           variants={iconVariants(2.3)}
           initial="initial"
@@ -149,7 +177,37 @@ const Technologies = () => {
             </HoverTech>
           </a>
         </motion.div>
-        
+
+        {/* NodeJS */}
+        <motion.div
+          variants={iconVariants(2.2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
+        >
+          <a href="#ascii">
+            <HoverTech name={"NodeJS"}>
+              <FaNodeJs className="text-green-500 text-7xl" />
+            </HoverTech>
+          </a>
+        </motion.div>
+
+        {/* ===== Data ===== */}
+        {/* SQL */}
+        <motion.div
+          variants={iconVariants(2.3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
+        >
+          <a href="#data">
+            <HoverTech name={"SQL"}>
+              <TbSql className="text-purple-400 text-7xl" />
+            </HoverTech>
+          </a>
+        </motion.div>
+
+        {/* ===== Tools ===== */}
         {/* GitHub */}
         <motion.div
           variants={iconVariants(2.1)}
@@ -159,11 +217,10 @@ const Technologies = () => {
         >
           <a href="#ascii">
             <HoverTech name={"GitHub"} invert={true}>
-              <FaGithub className="text-7xl " />
+              <FaGithub className="text-7xl" />
             </HoverTech>
           </a>
         </motion.div>
-
       </motion.div>
     </div>
   );
