@@ -114,7 +114,7 @@ const Technologies = () => {
 
         {/* React */}
         <motion.div variants={iconVariants(2.3)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
-          <a href="#projects">
+          <a href="#reddit">
             <HoverTech name={"React"}>
               <RiReactjsLine className="rounded-full shadow-black text-cyan-500 text-7xl" />
             </HoverTech>
