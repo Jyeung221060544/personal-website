@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import HoverTech from "./HoverTech";
 
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
-import { FaGithub, FaNodeJs, FaJava, FaHtml5, FaCss3 } from "react-icons/fa";
+import { FaGithub, FaNodeJs, FaJava, FaHtml5, FaCss3, FaBrain } from "react-icons/fa";
 import { SiPython, SiJavascript, SiC } from "react-icons/si";
 import { TbBrandCpp, TbSql, TbCpu } from "react-icons/tb";
 
@@ -40,13 +40,8 @@ const Technologies = () => {
       >
         {/* ===== Languages ===== */}
         {/* JavaScript */}
-        <motion.div
-          variants={iconVariants(2.4)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
-        >
-          <a href="#portfolio">
+        <motion.div variants={iconVariants(2.4)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
+          <a href="#hunting-game">
             <HoverTech name={"JavaScript"}>
               <SiJavascript className="text-yellow-400 text-7xl" />
             </HoverTech>
@@ -54,13 +49,8 @@ const Technologies = () => {
         </motion.div>
 
         {/* Python */}
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
-        >
-          <a href="#python-tkinter">
+        <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
+          <a href="#portfolio">
             <HoverTech name={"Python"}>
               <SiPython className="text-yellow-500 text-7xl" />
             </HoverTech>
@@ -68,25 +58,17 @@ const Technologies = () => {
         </motion.div>
 
         {/* Java */}
-        <motion.div
-          variants={iconVariants(2.2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
-        >
-          <HoverTech name={"Java"}>
-            <FaJava className="text-red-500 text-7xl" />
-          </HoverTech>
+        <motion.div variants={iconVariants(2.2)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
+          <a href="#encoding-decoding-project">
+            <HoverTech name={"Java"}>
+              <FaJava className="text-red-500 text-7xl" />
+            </HoverTech>
+          </a>
         </motion.div>
 
         {/* C++ */}
-        <motion.div
-          variants={iconVariants(2.7)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6 px-7"
-        >
-          <a href="#game">
+        <motion.div variants={iconVariants(2.7)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6 px-7">
+          <a href="#portfolio">
             <HoverTech name={"C++"}>
               <TbBrandCpp className="text-blue-500 text-7xl" />
             </HoverTech>
@@ -94,13 +76,8 @@ const Technologies = () => {
         </motion.div>
 
         {/* C */}
-        <motion.div
-          variants={iconVariants(2.7)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6 px-7"
-        >
-          <a href="#game">
+        <motion.div variants={iconVariants(2.7)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6 px-7">
+          <a href="#portfolio">
             <HoverTech name={"C"}>
               <SiC className="text-blue-300 text-7xl" />
             </HoverTech>
@@ -108,13 +85,8 @@ const Technologies = () => {
         </motion.div>
 
         {/* Assembly */}
-        <motion.div
-          variants={iconVariants(2.8)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
-        >
-          <a href="#systems">
+        <motion.div variants={iconVariants(2.8)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
+          <a href="#portfolio">
             <HoverTech name={"Assembly"}>
               <TbCpu className="text-neutral-300 text-7xl" />
             </HoverTech>
@@ -123,13 +95,8 @@ const Technologies = () => {
 
         {/* ===== Web ===== */}
         {/* HTML */}
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6 px-7"
-        >
-          <a href="#ascii">
+        <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6 px-7">
+          <a href="#japan-webpage">
             <HoverTech name={"HTML"}>
               <FaHtml5 className="text-orange-500 text-7xl" />
             </HoverTech>
@@ -137,13 +104,8 @@ const Technologies = () => {
         </motion.div>
 
         {/* CSS */}
-        <motion.div
-          variants={iconVariants(2.6)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
-        >
-          <a href="#portfolio">
+        <motion.div variants={iconVariants(2.6)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
+          <a href="#japan-webpage">
             <HoverTech name={"CSS"}>
               <FaCss3 className="text-blue-500 text-7xl" />
             </HoverTech>
@@ -151,12 +113,7 @@ const Technologies = () => {
         </motion.div>
 
         {/* React */}
-        <motion.div
-          variants={iconVariants(2.3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
-        >
+        <motion.div variants={iconVariants(2.3)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
           <a href="#portfolio">
             <HoverTech name={"React"}>
               <RiReactjsLine className="rounded-full shadow-black text-cyan-500 text-7xl" />
@@ -165,12 +122,7 @@ const Technologies = () => {
         </motion.div>
 
         {/* Tailwind */}
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
-        >
+        <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
           <a href="#portfolio">
             <HoverTech name={"Tailwind"}>
               <RiTailwindCssFill className="text-cyan-300 text-7xl" />
@@ -179,43 +131,37 @@ const Technologies = () => {
         </motion.div>
 
         {/* NodeJS */}
-        <motion.div
-          variants={iconVariants(2.2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
-        >
-          <a href="#ascii">
+        <motion.div variants={iconVariants(2.2)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
+          <a href="#reddit">
             <HoverTech name={"NodeJS"}>
               <FaNodeJs className="text-green-500 text-7xl" />
             </HoverTech>
           </a>
         </motion.div>
 
-        {/* ===== Data ===== */}
+        {/* ===== Data & ML ===== */}
         {/* SQL */}
-        <motion.div
-          variants={iconVariants(2.3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
-        >
-          <a href="#data">
+        <motion.div variants={iconVariants(2.3)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
+          <a href="#reddit">
             <HoverTech name={"SQL"}>
               <TbSql className="text-purple-400 text-7xl" />
             </HoverTech>
           </a>
         </motion.div>
 
+        {/* Machine Learning */}
+        <motion.div variants={iconVariants(2.4)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
+          <a href="#stress-dueling">
+            <HoverTech name={"Machine Learning"}>
+              <FaBrain className="text-pink-400 text-7xl" />
+            </HoverTech>
+          </a>
+        </motion.div>
+
         {/* ===== Tools ===== */}
         {/* GitHub */}
-        <motion.div
-          variants={iconVariants(2.1)}
-          initial="initial"
-          animate="animate"
-          className="rounded-full flex items-center border-4 border-neutral-900 p-6"
-        >
-          <a href="#ascii">
+        <motion.div variants={iconVariants(2.1)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
+          <a href="https://github.com/Jyeung221060544" target="_blank">
             <HoverTech name={"GitHub"} invert={true}>
               <FaGithub className="text-7xl" />
             </HoverTech>
