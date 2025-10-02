@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
-          href="www.linkedin.com/in/jason-yeung-73a1b8336"
+          href="https://www.linkedin.com/in/jason-yeung-73a1b8336/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-500 transition duration-300"
