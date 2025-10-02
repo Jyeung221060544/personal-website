@@ -91,7 +91,7 @@ export const PROJECTS = [
     mediaType: "video",
     mediaSrc: project1,
     technologies: ["Machine Learning", "HTML", "JavaScript", "CSS", "Colaboration"],
-    link: "https://github.com/Jyeung221060544/GamingProject",
+    link: "https://jyeung221060544.github.io/GamingProject/",
   },
   {
     id: "hunting-game",
@@ -100,7 +100,7 @@ export const PROJECTS = [
     mediaType: "image",
     mediaSrc: project2,
     technologies: ["3D animations", "VR", "Physics", "HTML", "JavaScript", "CSS"],
-    link: "https://github.com/Jyeung221060544/VrWorld-Hunting-Game",
+    link: "https://jyeung221060544.github.io/VrWorld-Hunting-Game/",
   },
   {
     id: "encoding-decoding-project",
