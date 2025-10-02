@@ -50,7 +50,7 @@ const Technologies = () => {
 
         {/* Python */}
         <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
-          <a href="#portfolio">
+          <a href="#projects">
             <HoverTech name={"Python"}>
               <SiPython className="text-yellow-500 text-7xl" />
             </HoverTech>
@@ -68,7 +68,7 @@ const Technologies = () => {
 
         {/* C++ */}
         <motion.div variants={iconVariants(2.7)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6 px-7">
-          <a href="#portfolio">
+          <a href="#projects">
             <HoverTech name={"C++"}>
               <TbBrandCpp className="text-blue-500 text-7xl" />
             </HoverTech>
@@ -77,7 +77,7 @@ const Technologies = () => {
 
         {/* C */}
         <motion.div variants={iconVariants(2.7)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6 px-7">
-          <a href="#portfolio">
+          <a href="#projects">
             <HoverTech name={"C"}>
               <SiC className="text-blue-300 text-7xl" />
             </HoverTech>
@@ -86,7 +86,7 @@ const Technologies = () => {
 
         {/* Assembly */}
         <motion.div variants={iconVariants(2.8)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
-          <a href="#portfolio">
+          <a href="#projects">
             <HoverTech name={"Assembly"}>
               <TbCpu className="text-neutral-300 text-7xl" />
             </HoverTech>
@@ -114,7 +114,7 @@ const Technologies = () => {
 
         {/* React */}
         <motion.div variants={iconVariants(2.3)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
-          <a href="#portfolio">
+          <a href="#projects">
             <HoverTech name={"React"}>
               <RiReactjsLine className="rounded-full shadow-black text-cyan-500 text-7xl" />
             </HoverTech>
@@ -123,7 +123,7 @@ const Technologies = () => {
 
         {/* Tailwind */}
         <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className="rounded-full flex items-center border-4 border-neutral-900 p-6">
-          <a href="#portfolio">
+          <a href="#projects">
             <HoverTech name={"Tailwind"}>
               <RiTailwindCssFill className="text-cyan-300 text-7xl" />
             </HoverTech>

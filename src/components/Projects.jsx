@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import ThreeDCard from "./ThreeDCard"; // adjust the path based on where your file is located
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="projects" className="border-b border-neutral-900 pb-4">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
